@@ -38,13 +38,13 @@ var ThemeRoutes = [
     name: 'Buttons',
     icon: 'mdi mdi-toggle-switch',
     component:  FirstDashboard
-  },/*
+  },
   {
     path: '/ui-components/card',
     name: 'Cards',
     icon: 'mdi mdi-credit-card-multiple',
     component:  FirstDashboard
-  },
+  },/*
   {
     path: '/ui-components/layout',
     name: 'Layout',
