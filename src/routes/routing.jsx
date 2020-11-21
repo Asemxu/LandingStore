@@ -38,7 +38,7 @@ var ThemeRoutes = [
     name: 'Buttons',
     icon: 'mdi mdi-toggle-switch',
     component:  FirstDashboard
-  },
+  },/*
   {
     path: '/ui-components/card',
     name: 'Cards',
@@ -64,7 +64,7 @@ var ThemeRoutes = [
 
     icon: 'mdi mdi-pencil-circle',
     component: FirstDashboard
-  },
+  },*/
   {
     path: '/',
     pathTo: '/Home',
