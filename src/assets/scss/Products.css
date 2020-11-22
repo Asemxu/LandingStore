@@ -16,6 +16,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-box-shadow: 5px 6px 28px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 29px 15px rgba(0,0,0,0.75);
+    box-shadow: 5px 2px 29px 15px rgba(0,0,0,0.75);
     /* object-fit: cover; */
 }
 
@@ -33,8 +36,8 @@
     border-radius:15px;
     border:solid 1px #bbb2;
     -webkit-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
--moz-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
+    box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
 }
 
 

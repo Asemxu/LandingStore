@@ -6,64 +6,68 @@
                 "id":"1",
                 "nombre":"Polera Star",
                 "precio":65,
-                "status":true
-
+                "status":true,
+                "img":"/polera_estar/polera_blue.jpeg"
             },
             {
                 "id":"2",
                 "nombre":"Polera Star",
                 "precio":65,
-                "status":true
+                "status":true,
+                "img":"/polera_estar/polera_red.jpeg"
 
             },
             {
                 "id":"3",
                 "nombre":"Polera Star",
                 "precio":65,
-                "status":true
+                "status":true,
+                "img":"/polera_estar/polera_white.jpeg"
 
             },
             {
                 "id":"4",
                 "nombre":"Polera Star",
                 "precio":65,
-                "status":true
+                "status":true,
+                "img":"/polera_estar/polera_yellow.jpeg"
 
             },
             {
                 "id":"5",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
-                "status":true
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg"
 
             },
             {
                 "id":"6",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
-                "status":true
-
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg"
             },
             {
                 "id":"7",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
-                "status":true
-
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_yellow.jpeg"
             },
             {
                 "id":"8",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
-                "status":true
-
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_red.jpeg"
             },
             {
                 "id":"9",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
-                "status":true
-
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_white.jpeg"
             }
         ]
     },
@@ -74,19 +78,22 @@
                 "id":"1",
                 "nombre":"Pantalones Cargo",
                 "precio":98,
-                "status":true
+                "status":true,
+                "img":"/pantalon_cargo/pantalon_cargo.jpeg"
             },
             {   
                 "id":"2",
                 "nombre":"Pantalones Jeans Semi",
                 "precio":98,
-                "status":true
+                "status":true,
+                "img":"/pantalon_jeanSemi/pantalon_jeanSemi.jpeg"
             },
             {   
                 "id":"3",
                 "nombre":"Pantalones Drill Semi",
                 "precio":98,
-                "status":true
+                "status":true,
+                "img":"/pantalon_drillSemi/pantalon_drillSemi.jpeg"
             }
         ]
         
@@ -110,13 +117,29 @@
                 "id":"1",
                 "nombre":"Camisas BGO Cuadros",
                 "precio":88,
-                "status":true
+                "status":true,
+                "img":"/camisa_BGO/BGO_1.jpeg"
             },
             {
                 "id":"2",
                 "nombre":"Camisas BGO cuadros ",
                 "precio":88,
-                "status":true
+                "status":true,
+                "img":"/camisa_BGO/BGO_2.jpeg"
+            },
+            {
+                "id":"3",
+                "nombre":"Camisas BGO Cuadros",
+                "precio":88,
+                "status":true,
+                "img":"/camisa_BGO/BGO_3.jpeg"
+            },
+            {
+                "id":"4",
+                "nombre":"Camisas BGO cuadros ",
+                "precio":88,
+                "status":true,
+                "img":"/camisa_BGO/BGO_4.jpeg"
             }
 
         ]
@@ -128,14 +151,21 @@
                 "id":"1",
                 "nombre":"Blus Parche",
                 "precio":45,
-                "status":true
+                "status":true,
+                "img":"/blusas/blusa.jpeg"
             }
         ]
     },
     "Bermudas":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/bermuda_drill/bermuda_drill.jpeg",
         "products":[
-
+            {
+                "id":"1",
+                "nombre":"Bermuda Drill",
+                "precio":75,
+                "status":true,
+                "img":"/bermuda_drill/bermuda_drill.jpeg"
+            }
         ]
     }
 }

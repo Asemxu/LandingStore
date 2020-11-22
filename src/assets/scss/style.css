@@ -10907,13 +10907,15 @@ a.text-inverse:focus {
 /*Blog widgets*/
 .blog-widget {
     margin-top: 30px;
+    -webkit-box-shadow: 5px 6px 28px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 29px 15px rgba(0,0,0,0.75);
+    box-shadow: 5px 2px 29px 15px rgba(0,0,0,0.75);
 }
 
 .blog-widget .blog-image img {
     border-radius: 4px;
     margin-top: -45px;
     margin-bottom: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .font-16 {
@@ -13444,15 +13446,17 @@ use profile section
 }
 
 .icon_header_footer{
-    color:black;
+    color:white;
     font-size:1.5rem;
-    margin-right: 0.5rem
+    margin-right: 0.5rem;
+    
 }
 
 .footer > h5{
     font-size:1rem;
     font-weight:1000;
-    color:black;
+    color:white;
+    text-shadow:5px 5px 5px black;
 }
 
 .footer_icons{

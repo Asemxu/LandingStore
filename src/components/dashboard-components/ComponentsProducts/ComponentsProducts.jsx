@@ -52,7 +52,7 @@ const TechCards = (props) => {
                                 <Card className="blog-widget">
                                     <CardBody>
                                         <div className="blog-image">
-                                            <img src={img1} alt="img" className="img-fluid" />
+                                            <img src={require('../../../assets/images/products'+info.img)} alt="img" className="img-fluid" />
                                         </div>
                                         <h4>{info.nombre}</h4>
                                         <div className="badge badge-rounded badge-success text-white">
