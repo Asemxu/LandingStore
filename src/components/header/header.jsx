@@ -1,51 +1,54 @@
-import React from 'react';
+import React from "react";
 import {
-    Nav,
-    NavItem,
-    // NavLink,
-    Navbar,
-    NavbarBrand,
-    Collapse,
-    // UncontrolledDropdown,
-    // DropdownToggle,
-    // DropdownMenu,
-    // DropdownItem,
-    // Form,
-    // Input
-} from 'reactstrap';
+  Nav,
+  NavItem,
+  // NavLink,
+  Navbar,
+  NavbarBrand,
+  Collapse,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+  // Form,
+  // Input
+} from "reactstrap";
 
 /*--------------------------------------------------------------------------------*/
 /* Import images which are need for the HEADER                                    */
 /*--------------------------------------------------------------------------------*/
-import logodarkicon from '../../assets/images/logo-icon.png';
-import logolighticon from '../../assets/images/logo-light-icon.png';
-import logodarktext from '../../assets/images/logo-text.png';
-import logolighttext from '../../assets/images/logo-light-text.png';
+import logodarkicon from "../../assets/images/logo-icon.png";
+import logolighticon from "../../assets/images/logo-light-icon.png";
+import logodarktext from "../../assets/images/logo-text.png";
+import logolighttext from "../../assets/images/logo-light-text.png";
+import logoRave from "../../assets/images/logo/rave_horizontal_1.png";
+import "../../assets/scss/logo.css";
 //import profilephoto from '../../assets/images/users/1.jpg';
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Header = () => {
+  const showMobilemenu = () => {
+    document.getElementById("main-wrapper").classList.toggle("show-sidebar");
+  };
 
-    const showMobilemenu = () => {
-        document.getElementById('main-wrapper').classList.toggle('show-sidebar');
-    }
+  /*--------------------------------------------------------------------------------*/
+  /*To open Search Bar                                                              */
+  /*--------------------------------------------------------------------------------*/
+  const toggleMenu = () => {
+    document.getElementById("search").classList.toggle("show-search");
+  };
 
-    /*--------------------------------------------------------------------------------*/
-    /*To open Search Bar                                                              */
-    /*--------------------------------------------------------------------------------*/
-    const toggleMenu = () => {
-        document.getElementById('search').classList.toggle('show-search');
-    }
-
-
-    return (
-        <header className="topbar navbarbg" data-navbarbg="skin4">
-            <Navbar className="top-navbar" dark expand="md">
-                <div className="navbar-header" id="logobg" data-logobg="skin4">
-                    {/*--------------------------------------------------------------------------------*/}
-                    {/* Logos Or Icon will be goes here for Light Layout && Dark Layout                */}
-                    {/*--------------------------------------------------------------------------------*/}
-                    <NavbarBrand href="/">
-                        <b className="logo-icon">
+  return (
+    <header className="topbar navbarbg" data-navbarbg="skin4">
+      <Navbar className="top-navbar" dark expand="md">
+        <div className="navbar-header" id="logobg" data-logobg="skin4">
+          {/*--------------------------------------------------------------------------------*/}
+          {/* Logos Or Icon will be goes here for Light Layout && Dark Layout                */}
+          {/*--------------------------------------------------------------------------------*/}
+          <NavbarBrand href="/">
+            <div className="logoRave">
+              <img className="logoRave-img" src={logoRave}></img>
+            </div>
+            {/* <b className="logo-icon">
                             <img src={logodarkicon} alt="homepage" className="dark-logo" />
                             <img
                                 src={logolighticon}
@@ -60,28 +63,24 @@ const Header = () => {
                                 className="light-logo"
                                 alt="homepage"
                             />
-                        </span>
-                    </NavbarBrand>                  
-                    {/*--------------------------------------------------------------------------------*/}
-                    {/* Mobile View Toggler  [visible only after 768px screen]                         */}
-                    {/*--------------------------------------------------------------------------------*/}
-                    <button
-                        className="btn-link nav-toggler d-block d-md-none text-white"
-                        onClick={() => showMobilemenu()}
-                    >
-                        <i className="ti-menu ti-close" />
-                    </button>
-                </div>
-                <Collapse
-                    className="navbarbg"
-                    navbar
-                    data-navbarbg="skin4"
-                >
-                    {/* <Nav className="float-left" navbar> */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* Start Search-box toggle                                                        */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* <NavItem className="hidden-sm-down search-box">
+                        </span> */}
+          </NavbarBrand>
+          {/*--------------------------------------------------------------------------------*/}
+          {/* Mobile View Toggler  [visible only after 768px screen]                         */}
+          {/*--------------------------------------------------------------------------------*/}
+          <button
+            className="btn-link nav-toggler d-block d-md-none text-white"
+            onClick={() => showMobilemenu()}
+          >
+            <i className="ti-menu ti-close" />
+          </button>
+        </div>
+        <Collapse className="navbarbg" navbar data-navbarbg="skin4">
+          {/* <Nav className="float-left" navbar> */}
+          {/*--------------------------------------------------------------------------------*/}
+          {/* Start Search-box toggle                                                        */}
+          {/*--------------------------------------------------------------------------------*/}
+          {/* <NavItem className="hidden-sm-down search-box">
                             <NavLink
                                 href="#"
                                 className="hidden-sm-down"
@@ -96,35 +95,35 @@ const Header = () => {
                                 </button>
                             </Form>
                         </NavItem> */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* End Search-box toggle                                                          */}
-                        {/*--------------------------------------------------------------------------------*/}
-                    {/*</Nav> */}
-                    <Nav className="ml-auto float-right" navbar>
-                        <NavItem>
-                            <a href={"tel:"+"http://987771610"}>
-                                <i className="mdi mdi-phone icon_header"> 961 558 181</i> 
-                           </a>
-                        </NavItem>
-                        <NavItem>
-                            <a href="https://www.google.com" target="_BLANK">
-                                <i className="mdi mdi-google-maps icon_header"> </i> 
-                            </a>
-                        </NavItem>
-                        <NavItem>
-                            <a href="https://www.facebook.com" target="_BLANK">
-                                <i className="mdi mdi-facebook-box icon_header"> </i> 
-                            </a>
-                        </NavItem>
-                        <NavItem>
-                            <a href={"mailto:"+"renzo@hotmail.com"}>
-                                <i className="mdi mdi-gmail icon_header"> </i> 
-                            </a>
-                        </NavItem>
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* Start Profile Dropdown                                                         */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* <UncontrolledDropdown nav inNavbar>
+          {/*--------------------------------------------------------------------------------*/}
+          {/* End Search-box toggle                                                          */}
+          {/*--------------------------------------------------------------------------------*/}
+          {/*</Nav> */}
+          <Nav className="ml-auto float-right" navbar>
+            <NavItem>
+              <a href={"tel:" + "http://987771610"}>
+                <i className="mdi mdi-phone icon_header"> 961 558 181</i>
+              </a>
+            </NavItem>
+            <NavItem>
+              <a href="https://www.google.com" target="_BLANK">
+                <i className="mdi mdi-google-maps icon_header"> </i>
+              </a>
+            </NavItem>
+            <NavItem>
+              <a href="https://www.facebook.com" target="_BLANK">
+                <i className="mdi mdi-facebook-box icon_header"> </i>
+              </a>
+            </NavItem>
+            <NavItem>
+              <a href={"mailto:" + "renzo@hotmail.com"}>
+                <i className="mdi mdi-gmail icon_header"> </i>
+              </a>
+            </NavItem>
+            {/*--------------------------------------------------------------------------------*/}
+            {/* Start Profile Dropdown                                                         */}
+            {/*--------------------------------------------------------------------------------*/}
+            {/* <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret className="pro-pic">
                                 <img
                                     src={profilephoto}
@@ -151,13 +150,13 @@ const Header = () => {
                   </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown> */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* End Profile Dropdown                                                           */}
-                        {/*--------------------------------------------------------------------------------*/}
-                    </Nav>
-                </Collapse>
-            </Navbar>
-        </header>
-    );
-}
+            {/*--------------------------------------------------------------------------------*/}
+            {/* End Profile Dropdown                                                           */}
+            {/*--------------------------------------------------------------------------------*/}
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </header>
+  );
+};
 export default Header;

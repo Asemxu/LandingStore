@@ -1,0 +1,9 @@
+.logoRave-img{
+    height: auto;
+    width: 100px;
+    padding: 5%;
+    margin-left: 20%;
+}
+a.navbar-brand{
+    justify-content: left !important;
+}
