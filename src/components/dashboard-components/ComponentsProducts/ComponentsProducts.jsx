@@ -1,40 +1,42 @@
-import React, { useState } from 'react';
-import { Card, CardBody, Tooltip, Row, Col } from 'reactstrap';
-import '../../../assets/scss/Products.css';
-import img1 from '../../../assets/images/big/img1.jpg';
-import img2 from '../../../assets/images/big/img2.jpg';
-import img3 from '../../../assets/images/big/img3.jpg';
+import React, { useState } from "react";
+import { Card, CardBody, Tooltip, Row, Col } from "reactstrap";
+import "../../../assets/scss/Products.css";
+import img1 from "../../../assets/images/big/img1.jpg";
+import img2 from "../../../assets/images/big/img2.jpg";
+import img3 from "../../../assets/images/big/img3.jpg";
+import notFound_1 from "../../../assets/images/products-icons/svg/404-error.svg";
+import notFound_2 from "../../../assets/images/products-icons/svg/not-found.svg";
 
 const TechCards = (props) => {
-    const data_info = props.data;
-    const categoria = props.categoria;
-    const img_bg = '../../../assets/images/products'+props.data.imagen;
-    // const [tooltipOpen, setTooltipOpen] = useState(false);
-    // const [tooltipOpen2, setTooltipOpen2] = useState(false);
-    // const [tooltipOpen3, setTooltipOpen3] = useState(false);
-    // const [tooltipOpen4, setTooltipOpen4] = useState(false);
-    // const [tooltipOpen5, setTooltipOpen5] = useState(false);
-    // const [tooltipOpen6, setTooltipOpen6] = useState(false);
+  const data_info = props.data;
+  const categoria = props.categoria;
+  const img_bg = "../../../assets/images/products" + props.data.imagen;
+  // const [tooltipOpen, setTooltipOpen] = useState(false);
+  // const [tooltipOpen2, setTooltipOpen2] = useState(false);
+  // const [tooltipOpen3, setTooltipOpen3] = useState(false);
+  // const [tooltipOpen4, setTooltipOpen4] = useState(false);
+  // const [tooltipOpen5, setTooltipOpen5] = useState(false);
+  // const [tooltipOpen6, setTooltipOpen6] = useState(false);
 
-    // const toggle = () => {
-    //     setTooltipOpen(!tooltipOpen);
-    // }
+  // const toggle = () => {
+  //     setTooltipOpen(!tooltipOpen);
+  // }
 
-    // const toggle2 = () => {
-    //     setTooltipOpen2(!tooltipOpen2);
-    // }
+  // const toggle2 = () => {
+  //     setTooltipOpen2(!tooltipOpen2);
+  // }
 
-    // const toggle3 = () => {
-    //     setTooltipOpen3(!tooltipOpen3);
-    // }
+  // const toggle3 = () => {
+  //     setTooltipOpen3(!tooltipOpen3);
+  // }
 
-    // const toggle4 = () => {
-    //     setTooltipOpen4(!tooltipOpen4);
-    // }
+  // const toggle4 = () => {
+  //     setTooltipOpen4(!tooltipOpen4);
+  // }
 
-    // const toggle5 = () => {
-    //     setTooltipOpen5(!tooltipOpen5);
-    // }
+  // const toggle5 = () => {
+  //     setTooltipOpen5(!tooltipOpen5);
+  // }
 
     // const toggle6 = () => {
     //     setTooltipOpen6(!tooltipOpen6);
@@ -101,10 +103,10 @@ const TechCards = (props) => {
                                                 >
                                                     Like
                                                 </Tooltip> */}
-                                                <a className="link" id="TooltipExample2">
-                                                    <i className="mdi mdi-share-variant" />
-                                                </a>
-                                                {/* <Tooltip
+                          <a className="link" id="TooltipExample2">
+                            <i className="mdi mdi-share-variant" />
+                          </a>
+                          {/* <Tooltip
                                                     placement="top"
                                                     isOpen={tooltipOpen2}
                                                     target="TooltipExample2"
@@ -112,43 +114,49 @@ const TechCards = (props) => {
                                                 >
                                                     Share
                                                 </Tooltip> */}
-                                            </div>
-                                        </div>
-                                        
-                                    </CardBody>
-                                </Card>
-                            </Col>             
-                        )
-                    })} 
-                </Row>    
-                </React.Fragment>
-            )
-        }else{
-            return(
-                <React.Fragment>
-                    <div className="container__error">
-                        <h1>Lo Sentimos aún no Tenemos Articulos de esta Categoria 😢😢😢😢</h1>
-                    </div>
-                </React.Fragment>
-            )
-        }
-    }
-    return (
-        /*--------------------------------------------------------------------------------*/
-        /* Used In Hook                                                       */
-        /*--------------------------------------------------------------------------------*/
-        <React.Fragment>
-
-            <div className="img__container" style={{ backgroundImage:`url(${require('../../../assets/images/products'+data_info.imagen)})` }}>
-                {/* <img  className="img-fluid" src="" alt={categoria}/> */}
-                <h1 className="title_categoria">{categoria}</h1>
-            </div>
-            {/* <div className={`img__${categoria}`} style={style}>
-                </div> */}
-            {isNullOrIsEmpty()}
-            
+                        </div>
+                      </div>
+                    </CardBody>
+                  </Card>
+                </Col>
+              );
+            })}
+          </Row>
         </React.Fragment>
-    );
-}
+      );
+    } else {
+      return (
+        <React.Fragment>
+          <div className="container__error">
+            <i id="errori-img">
+              <img className="img-error" src={notFound_2} />
+            </i>
+            <i id="errori-text">Lo sentimos, aún no tenemos artículos en esta categoría.</i>
+          </div>
+        </React.Fragment>
+      );
+    }
+  };
+  return (
+    /*--------------------------------------------------------------------------------*/
+    /* Used In Hook                                                       */
+    /*--------------------------------------------------------------------------------*/
+    <React.Fragment>
+      <div
+        className="img__container"
+        style={{
+          backgroundImage: `url(${require("../../../assets/images/products" +
+            data_info.imagen)})`,
+        }}
+      >
+        {/* <img  className="img-fluid" src="" alt={categoria}/> */}
+        <h1 className="title_categoria">{categoria}</h1>
+      </div>
+      {/* <div className={`img__${categoria}`} style={style}>
+                </div> */}
+      {isNullOrIsEmpty()}
+    </React.Fragment>
+  );
+};
 
 export default TechCards;
