@@ -39,6 +39,22 @@ const TechCards = (props) => {
     // const toggle6 = () => {
     //     setTooltipOpen6(!tooltipOpen6);
     // }
+
+    const isDisponible = (status) =>{
+        let className = "";
+        let estado = "";
+        if(status){
+            className = "disponible";
+            estado = "Disponible";
+        }else{
+            className = "no_disponible";
+            estado = "No disponible"
+        }
+        return (
+            <b className={className}>{estado}</b>
+        )
+    }
+
     const isNullOrIsEmpty = () =>{
         if(data_info.products !== null && data_info.products.length > 0){
             console.log("entro");
@@ -61,6 +77,12 @@ const TechCards = (props) => {
                                         <p className="mt-3 mb-3">
                                             Precio : S/. {info.precio}.00
                                         </p>
+                                        <p className="mt-3 mb-3 text-center">
+                                            {isDisponible(info.status)}
+                                        </p>
+                                        <div className="btn_añadir">
+                                            <input type="button" className="btn btn-success" value="Añadir al Carrito 🛒" />
+                                        </div>
                                         <div className="d-flex">
                                             <div className="read">
                                                 <a className="link font-medium">
@@ -92,6 +114,7 @@ const TechCards = (props) => {
                                                 </Tooltip> */}
                                             </div>
                                         </div>
+                                        
                                     </CardBody>
                                 </Card>
                             </Col>             

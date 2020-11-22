@@ -3,7 +3,7 @@ import React from 'react';
 //     Row,
 //     Col
 // } from 'reactstrap';
-import { ComponentsProducts } from 'components/dashboard-components';
+import { ComponentsProducts , ComponentsInicio } from 'components/dashboard-components';
 import data from '../../database/data.json';
 
 const Starter = (props) => {
@@ -12,7 +12,7 @@ const Starter = (props) => {
     path = path.substring(1);
     switch(path){
         case "Inicio":
-            return null;
+            return <ComponentsInicio />;
         case "Casacas":
             result = data.Casacas;
             break;

@@ -68,6 +68,126 @@
                 "precio":58,
                 "status":true,
                 "img":"/polera_justDoIt/polera_justDoIt_white.jpeg"
+            },
+            {
+                "id":"10",
+                "nombre":"Polera Bicolor Blanco y Negro",
+                "precio":68,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_white.jpeg"
+            },
+            {
+                "id":"11",
+                "nombre":"Polera Bicolor Azul y Blanco",
+                "precio":68,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_blue.jpeg"
+
+            },
+            {
+                "id":"12",
+                "nombre":"Polera Bicolor Amarrillo y Negro",
+                "precio":68,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_yellow.jpeg"
+
+            },
+            {
+                "id":"13",
+                "nombre":"Polera Bicolor Celeste y Negro",
+                "precio":68,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_celeste.jpeg"
+
+            },
+            {
+                "id":"14",
+                "nombre":"Polera Bicolor Blanco y Morado",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_morado_white.jpeg"
+
+            },
+            {
+                "id":"15",
+                "nombre":"Polera Bicolor Amarillo y Blanco",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_yellow_white.jpeg"
+            },
+            {
+                "id":"16",
+                "nombre":"Polera Bicolor Anaranjado y Blanco",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_orange_white.jpeg"
+            },
+            {
+                "id":"17",
+                "nombre":"Polera Bicolor Rojo y Negro",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_red_black.jpeg"
+            },
+            {
+                "id":"18",
+                "nombre":"Polera Bicolor Celeste y Negro",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_celeste_black2.jpeg"
+            },
+            {
+                "id":"19",
+                "nombre":"Polera Bicolor Negro y Piel",
+                "precio":65,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_negro_dorado.jpeg"
+            },
+            {
+                "id":"20",
+                "nombre":"Polera Bicolor Rosado y Blanco",
+                "precio":65,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_white_pink.jpeg"
+
+            },
+            {
+                "id":"21",
+                "nombre":"Polera Bicolor Azul y Blanco",
+                "precio":65,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_blue_white.jpeg"
+
+            },
+            {
+                "id":"22",
+                "nombre":"Polera Bicolor Rosado y Negro",
+                "precio":65,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_pink_black.jpeg"
+
+            },
+            {
+                "id":"23",
+                "nombre":"Polera Bicolor Rojo y Blanco",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_red_white.jpeg"
+
+            },
+            {
+                "id":"24",
+                "nombre":"Polera Bicolor Verde y Negro",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_green_black.jpeg"
+            },
+            {
+                "id":"25",
+                "nombre":"Polera Bicolor Celetes y Blanco",
+                "precio":58,
+                "status":true,
+                "img":"/polera_bicolor/bicolor_celeste_white.jpeg"
             }
         ]
     },
@@ -75,7 +195,7 @@
         "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
         "products":[
             {   
-                "id":"1",
+                "id":"111",
                 "nombre":"Pantalones Cargo",
                 "precio":98,
                 "status":true,

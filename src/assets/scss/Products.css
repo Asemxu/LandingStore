@@ -40,5 +40,15 @@
     box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
 }
 
+.disponible{
+    color:rgba(4, 202, 4, 0.85);
+}
 
+.no_disponible{
+    color:rgb(252, 54, 54);
+}
 
+.btn_añadir{
+    text-align:center;
+    margin-bottom:1rem;
+}
