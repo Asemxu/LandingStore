@@ -16,60 +16,87 @@ import FirstDashboard from '../views/starter/starter.jsx';
 
 var ThemeRoutes = [
   {
-    path: '/Home',
-    name: 'Dashboard',
+    path: '/Inicio',
+    name: 'Inicio',
     icon: 'mdi mdi-adjust',
     component: FirstDashboard
   },
   {
-    path: '/Home',
-    name: 'Alerts',
+    path: '/Casacas',
+    name: 'Casacas',
+    icon: 'mdi mdi-adjust',
+    component: FirstDashboard
+  },
+  {
+    path: '/Pantalones',
+    name: 'Pantalones',
     icon: 'mdi mdi-comment-processing-outline',
     component: FirstDashboard
   },
   {
-    path: '/Home',
-    name: 'Badges',
+    path: '/Poleras',
+    name: 'Poleras',
     icon: 'mdi mdi-arrange-send-backward',
-    component:  FirstDashboard
+    component: FirstDashboard
   },
   {
-    path: '/Home',
-    name: 'Buttons',
+    path: '/Camisas',
+    name: 'Camisas',
     icon: 'mdi mdi-toggle-switch',
-    component:  FirstDashboard
+    component: FirstDashboard
   },
   {
-    path: '/ui-components/card',
-    name: 'Cards',
+    path: '/Polos',
+    name: 'Polos',
     icon: 'mdi mdi-credit-card-multiple',
-    component:  FirstDashboard
+    component: FirstDashboard
+  },
+  {
+    path: '/Blusas',
+    name: 'Blusas',
+    icon: 'mdi mdi-credit-card-multiple',
+    component: FirstDashboard
+  },
+  {
+    path: '/Bermudas',
+    name: 'Bermudas',
+    icon: 'mdi mdi-credit-card-multiple',
+    component: FirstDashboard
   },/*
   {
     path: '/ui-components/layout',
     name: 'Layout',
     icon: 'mdi mdi-apps',
-    component: FirstDashboard
+    component: LayoutComponent
   },
   {
     path: '/ui-components/pagination',
     name: 'Pagination',
 
     icon: 'mdi mdi-priority-high',
-    component:  FirstDashboard
+    component: PaginationComponent
   },
   {
     path: '/ui-components/popover',
     name: 'Popover',
 
     icon: 'mdi mdi-pencil-circle',
-    component: FirstDashboard
+    component: PopoverComponent
+  },
+  {
+    path: '/ui-components/tooltip',
+    name: 'Toltips',
+
+    icon: 'mdi mdi-image-filter-vintage',
+    component: TooltipComponent
   },*/
   {
     path: '/',
-    pathTo: '/Home',
-    name: 'Dashboard',
+    pathTo: '/Inicio',
+    name: 'Inicio',
     redirect: true
   }
 ];
 export default ThemeRoutes;
+
+

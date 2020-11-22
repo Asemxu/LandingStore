@@ -1,0 +1,18 @@
+.title_categoria{
+    text-align:center;
+}
+
+
+.img__container{
+    text-align: center;
+}
+
+.img__Camisas{
+    width:50%;
+    height:60vh;
+    background: url(../images/products/camisa_BGO/BGO_Principal.jpeg) no-repeat;
+    background-size:100%;
+}
+
+
+

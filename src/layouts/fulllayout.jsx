@@ -4,15 +4,16 @@ import Header from '../components/header/header.jsx';
 import Sidebar from '../components/sidebar/sidebar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import ThemeRoutes from '../routes/routing.jsx';
-import FirstDashboard from '../views/starter/starter.jsx';
 
 const Fulllayout = (props) => {
+   
+
     /*--------------------------------------------------------------------------------*/
     /*Change the layout settings [HEADER,SIDEBAR && DARK LAYOUT] from here            */
     /*--------------------------------------------------------------------------------*/
     const [width, setWidth] = useState(window.innerWidth);
 
-    props.history.listen((location, action) => {
+    /*props.history.listen((location, action) => {
         if (
             window.innerWidth < 767 &&
             document
@@ -23,7 +24,7 @@ const Fulllayout = (props) => {
                 .getElementById('main-wrapper')
                 .classList.toggle('show-sidebar');
         }
-    });
+    })*/
 
     /*--------------------------------------------------------------------------------*/
     /*Function that handles sidebar, changes when resizing App                        */
@@ -77,7 +78,27 @@ const Fulllayout = (props) => {
             {/*--------------------------------------------------------------------------------*/}
             <div className="page-wrapper d-block">
                 <div className="page-content container-fluid">
-                    <FirstDashboard />
+                    <Switch>
+                        {ThemeRoutes.map((prop, key) => {
+                            if (prop.redirect) {
+                                return (
+                                    <Redirect
+                                        from={prop.path}
+                                        to={prop.pathTo}
+                                        key={key}
+                                    />
+                                );
+                            } else {
+                                return (
+                                    <Route
+                                        path={prop.path}
+                                        component={prop.component}
+                                        key={key}
+                                    />
+                                );
+                            }
+                        })}
+                    </Switch>
                 </div>
                 <Footer />
             </div>

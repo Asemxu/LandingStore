@@ -1,0 +1,141 @@
+{
+    "Poleras":{
+        "imagen":"/polera_justDoIt/polera_justDoIt_principal.jpeg",
+        "products":[
+            {
+                "id":"1",
+                "nombre":"Polera Star",
+                "precio":65,
+                "status":true
+
+            },
+            {
+                "id":"2",
+                "nombre":"Polera Star",
+                "precio":65,
+                "status":true
+
+            },
+            {
+                "id":"3",
+                "nombre":"Polera Star",
+                "precio":65,
+                "status":true
+
+            },
+            {
+                "id":"4",
+                "nombre":"Polera Star",
+                "precio":65,
+                "status":true
+
+            },
+            {
+                "id":"5",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true
+
+            },
+            {
+                "id":"6",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true
+
+            },
+            {
+                "id":"7",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true
+
+            },
+            {
+                "id":"8",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true
+
+            },
+            {
+                "id":"9",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true
+
+            }
+        ]
+    },
+    "Pantalones":{
+        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "products":[
+            {   
+                "id":"1",
+                "nombre":"Pantalones Cargo",
+                "precio":98,
+                "status":true
+            },
+            {   
+                "id":"2",
+                "nombre":"Pantalones Jeans Semi",
+                "precio":98,
+                "status":true
+            },
+            {   
+                "id":"3",
+                "nombre":"Pantalones Drill Semi",
+                "precio":98,
+                "status":true
+            }
+        ]
+        
+    },
+    "Casacas":{
+        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "products":[
+
+        ]
+    },
+    "Polos":{
+        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "products":[
+
+        ]
+    },
+    "Camisas":{
+        "imagen":"/camisa_BGO/BGO_Principal.jpeg",
+        "products":[
+            {
+                "id":"1",
+                "nombre":"Camisas BGO Cuadros",
+                "precio":88,
+                "status":true
+            },
+            {
+                "id":"2",
+                "nombre":"Camisas BGO cuadros ",
+                "precio":88,
+                "status":true
+            }
+
+        ]
+    },
+    "Blusas":{
+        "imagen":"/blusas/blusa.jpeg",
+        "products":[
+            {
+                "id":"1",
+                "nombre":"Blus Parche",
+                "precio":45,
+                "status":true
+            }
+        ]
+    },
+    "Bermudas":{
+        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "products":[
+
+        ]
+    }
+}
