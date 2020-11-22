@@ -13453,6 +13453,11 @@ use profile section
     
 }
 
+.footer_footer{
+    padding:1rem;
+    background:hsl(192, 40%,10%);
+}
+
 
 .footer > h5{
     padding-top:1rem;
@@ -13470,6 +13475,15 @@ use profile section
     background:url(../images/fondo_4.jpg)no-repeat 100% fixed;
     background-size:100%;
 }
+
+i.mdi.mdi-whatsapp.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+i.mdi.mdi-instagram.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
 i.mdi.mdi-phone.icon_header_footer::before{
     text-shadow: black 0.1em 0.1em 0.2em
 }
@@ -13485,4 +13499,8 @@ i.mdi.mdi-gmail.icon_header_footer::before{
 
 .links :hover{
     color:rgba(191, 191, 4, 0.864);
+}
+
+.links > i{
+    font-size:0.75rem;
 }
