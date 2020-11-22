@@ -5422,7 +5422,7 @@ input[type="button"].btn-block {
 
 .badge-success {
     color: #455a64;
-    background-color: #26c6da;
+    background:hsl(192, 100%,9%);
 }
 
 .badge-success[href]:hover,
@@ -12111,7 +12111,7 @@ Preloader
 
 #main-wrapper[data-layout='vertical'] .topbar .top-navbar .navbar-header[data-logobg='skin1'],
 #main-wrapper[data-layout='horizontal'] .topbar .top-navbar .navbar-header[data-logobg='skin1'] {
-    background: #272c33;
+    background:hsl(192, 100%,9%);
 }
 
 #main-wrapper[data-layout='vertical'] .topbar .top-navbar .navbar-header[data-logobg='skin2'],
@@ -12126,7 +12126,7 @@ Preloader
 
 #main-wrapper[data-layout='vertical'] .topbar .top-navbar .navbar-header[data-logobg='skin4'],
 #main-wrapper[data-layout='horizontal'] .topbar .top-navbar .navbar-header[data-logobg='skin4'] {
-    background: #1e88e5;
+    background:hsl(192, 100%,9%);
 }
 
 #main-wrapper[data-layout='vertical'] .topbar .top-navbar .navbar-header[data-logobg='skin5'],
@@ -12181,7 +12181,7 @@ Preloader
 #main-wrapper[data-layout='vertical'] .topbar[data-navbarbg='skin4'],
 #main-wrapper[data-layout='horizontal'] .topbar .navbar-collapse[data-navbarbg='skin4'],
 #main-wrapper[data-layout='horizontal'] .topbar[data-navbarbg='skin4'] {
-    background: #1e88e5;
+    background:hsl(192, 100%,9%);
 }
 
 #main-wrapper[data-layout='vertical'] .topbar .navbar-collapse[data-navbarbg='skin5'],
@@ -12267,8 +12267,8 @@ Preloader
 #main-wrapper[data-layout='vertical'] .left-sidebar[data-sidebarbg='skin1'] ul .sidebar-nav ul .sidebar-item.selected>.sidebar-link,
 #main-wrapper[data-layout='horizontal'] .left-sidebar[data-sidebarbg='skin1'] .sidebar-nav ul .sidebar-item.selected>.sidebar-link,
 #main-wrapper[data-layout='horizontal'] .left-sidebar[data-sidebarbg='skin1'] ul .sidebar-nav ul .sidebar-item.selected>.sidebar-link {
-    background: #26c6da;
-    color: #fff;
+    background:hsl(192, 100%,9%);
+        color: #fff;
     border-radius: 4px;
     opacity: 1;
 }
@@ -12450,7 +12450,7 @@ Preloader
 #main-wrapper[data-layout='vertical'] .left-sidebar[data-sidebarbg='skin6'] ul .sidebar-nav ul .sidebar-item.selected>.sidebar-link,
 #main-wrapper[data-layout='horizontal'] .left-sidebar[data-sidebarbg='skin6'] .sidebar-nav ul .sidebar-item.selected>.sidebar-link,
 #main-wrapper[data-layout='horizontal'] .left-sidebar[data-sidebarbg='skin6'] ul .sidebar-nav ul .sidebar-item.selected>.sidebar-link {
-    background: #26c6da;
+    background:hsl(192, 100%,9%);
     color: #fff;
     border-radius: 4px;
     opacity: 1;
@@ -13435,4 +13435,30 @@ use profile section
     right: 0px;
     width: 180px;
     margin: 0 auto;
+}
+
+.icon_header{
+    color:white;
+    font-size:1rem;
+    margin-right: 1rem;
+}
+
+.icon_header_footer{
+    color:black;
+    font-size:1.5rem;
+    margin-right: 0.5rem
+}
+
+.footer > h5{
+    font-size:1rem;
+    font-weight:1000;
+}
+
+.footer_icons{
+    display:block;
+}
+
+.page-wrapper{
+    background:url(../images/fondo.jpg)no-repeat 100% fixed;
+    background-size:cover;
 }

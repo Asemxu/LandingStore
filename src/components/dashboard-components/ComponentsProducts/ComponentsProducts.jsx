@@ -39,7 +39,8 @@ const TechCards = (props) => {
     //     setTooltipOpen6(!tooltipOpen6);
     // }
     const isNullOrIsEmpty = () =>{
-        if(data_info.products !== null || data_info.products.length > 0){
+        if(data_info.products !== null && data_info.products.length > 0){
+            console.log("entro");
             return (
                 <React.Fragment>
                  <Row>
@@ -61,12 +62,12 @@ const TechCards = (props) => {
                                         </p>
                                         <div className="d-flex">
                                             <div className="read">
-                                                <a href="#" className="link font-medium">
+                                                <a className="link font-medium">
                                                     Read More
                                                 </a>
                                             </div>
                                             <div className="ml-auto">
-                                                <a href="#" className="link mr-2" id="TooltipExample">
+                                                <a className="link mr-2" id="TooltipExample">
                                                     <i className="mdi mdi-heart-outline" />
                                                 </a>
                                                 {/* <Tooltip
@@ -77,7 +78,7 @@ const TechCards = (props) => {
                                                 >
                                                     Like
                                                 </Tooltip> */}
-                                                <a href="#" className="link" id="TooltipExample2">
+                                                <a className="link" id="TooltipExample2">
                                                     <i className="mdi mdi-share-variant" />
                                                 </a>
                                                 {/* <Tooltip
@@ -98,6 +99,14 @@ const TechCards = (props) => {
                 </Row>    
                 </React.Fragment>
             )
+        }else{
+            return(
+                <React.Fragment>
+                    <div className="container__error">
+                        <h1>Lo Sentimos aún no Tenemos Articulos de esta Categoria 😢😢😢😢</h1>
+                    </div>
+                </React.Fragment>
+            )
         }
     }
     return (
@@ -106,9 +115,9 @@ const TechCards = (props) => {
         /*--------------------------------------------------------------------------------*/
         <React.Fragment>
             <h1 className="title_categoria">{categoria}</h1>
-            <div className="img__container">
+            {/* <div className="img__container">
                 <img  className="img-fluid" src={require('../../../assets/images/products'+data_info.imagen)} alt={categoria}/>
-            </div>
+            </div> */}
             {/* <div className={`img__${categoria}`} style={style}>
                 </div> */}
             {isNullOrIsEmpty()}

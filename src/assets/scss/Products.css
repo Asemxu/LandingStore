@@ -1,5 +1,9 @@
 .title_categoria{
     text-align:center;
+    color:#455a64;
+    font-size:3rem;
+    font-weight: 500;
+    font-style: italic;
 }
 
 
@@ -12,6 +16,17 @@
     height:60vh;
     background: url(../images/products/camisa_BGO/BGO_Principal.jpeg) no-repeat;
     background-size:100%;
+}
+
+.container__error{
+    width:100%;
+    padding:2rem;
+    margin-top:3rem;
+    border-radius:15px;
+    border:solid 1px #bbb2;
+    -webkit-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 48px 20px rgba(0,0,0,0.75);
 }
 
 

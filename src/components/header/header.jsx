@@ -2,16 +2,16 @@ import React from 'react';
 import {
     Nav,
     NavItem,
-    NavLink,
+    // NavLink,
     Navbar,
     NavbarBrand,
     Collapse,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    Form,
-    Input
+    // UncontrolledDropdown,
+    // DropdownToggle,
+    // DropdownMenu,
+    // DropdownItem,
+    // Form,
+    // Input
 } from 'reactstrap';
 
 /*--------------------------------------------------------------------------------*/
@@ -21,8 +21,8 @@ import logodarkicon from '../../assets/images/logo-icon.png';
 import logolighticon from '../../assets/images/logo-light-icon.png';
 import logodarktext from '../../assets/images/logo-text.png';
 import logolighttext from '../../assets/images/logo-light-text.png';
-import profilephoto from '../../assets/images/users/1.jpg';
-
+//import profilephoto from '../../assets/images/users/1.jpg';
+import {Link} from 'react-router-dom';
 const Header = () => {
 
     const showMobilemenu = () => {
@@ -61,7 +61,7 @@ const Header = () => {
                                 alt="homepage"
                             />
                         </span>
-                    </NavbarBrand>
+                    </NavbarBrand>                  
                     {/*--------------------------------------------------------------------------------*/}
                     {/* Mobile View Toggler  [visible only after 768px screen]                         */}
                     {/*--------------------------------------------------------------------------------*/}
@@ -77,43 +77,54 @@ const Header = () => {
                     navbar
                     data-navbarbg="skin4"
                 >
-                    <Nav className="float-left" navbar>
+                    {/* <Nav className="float-left" navbar> */}
                         {/*--------------------------------------------------------------------------------*/}
                         {/* Start Search-box toggle                                                        */}
                         {/*--------------------------------------------------------------------------------*/}
-                        <NavItem className="hidden-sm-down search-box">
+                        {/* <NavItem className="hidden-sm-down search-box">
                             <NavLink
                                 href="#"
                                 className="hidden-sm-down"
                                 onClick={toggleMenu.bind(null)}
                             >
                                 <i className="ti-search" />
-                            </NavLink>
+                            </NavLink> 
                             <Form className="app-search" id="search">
                                 <Input type="text" placeholder="Search & enter" />
                                 <button className="btn-link srh-btn" onClick={toggleMenu.bind(null)}>
                                     <i className="ti-close" />
                                 </button>
                             </Form>
-                        </NavItem>
+                        </NavItem> */}
                         {/*--------------------------------------------------------------------------------*/}
                         {/* End Search-box toggle                                                          */}
                         {/*--------------------------------------------------------------------------------*/}
-                    </Nav>
+                    {/*</Nav> */}
                     <Nav className="ml-auto float-right" navbar>
                         <NavItem>
-                            <a
-                                href="https://wrappixel.com/templates/materialpro-react-admin/"
-                                className="btn btn-danger mr-2"
-                                style={{ marginTop: '20px' }}
-                            >
-                                Upgrade to Pro
-                </a>
+                            <a href={"tel:"+"http://987771610"}>
+                                <i className="mdi mdi-phone icon_header"> 961 558 181</i> 
+                           </a>
+                        </NavItem>
+                        <NavItem>
+                            <a href="https://www.google.com" target="_BLANK">
+                                <i className="mdi mdi-google-maps icon_header"> </i> 
+                            </a>
+                        </NavItem>
+                        <NavItem>
+                            <a href="https://www.facebook.com" target="_BLANK">
+                                <i className="mdi mdi-facebook-box icon_header"> </i> 
+                            </a>
+                        </NavItem>
+                        <NavItem>
+                            <a href={"mailto:"+"renzo@hotmail.com"}>
+                                <i className="mdi mdi-gmail icon_header"> </i> 
+                            </a>
                         </NavItem>
                         {/*--------------------------------------------------------------------------------*/}
                         {/* Start Profile Dropdown                                                         */}
                         {/*--------------------------------------------------------------------------------*/}
-                        <UncontrolledDropdown nav inNavbar>
+                        {/* <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret className="pro-pic">
                                 <img
                                     src={profilephoto}
@@ -139,7 +150,7 @@ const Header = () => {
                                     <i className="fa fa-power-off mr-1 ml-1" /> Logout
                   </DropdownItem>
                             </DropdownMenu>
-                        </UncontrolledDropdown>
+                        </UncontrolledDropdown> */}
                         {/*--------------------------------------------------------------------------------*/}
                         {/* End Profile Dropdown                                                           */}
                         {/*--------------------------------------------------------------------------------*/}

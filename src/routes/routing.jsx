@@ -10,7 +10,7 @@ import FirstDashboard from '../views/starter/starter.jsx';
 // import Buttons from '../views/ui-components/button.jsx';
 // import Cards from '../views/ui-components/cards.jsx';
 // import LayoutComponent from '../views/ui-components/layout.jsx';
-// import PaginationComponent from '../views/ui-components/pagination.jsx';
+// import   PaginationComponent from '../views/ui-components/pagination.jsx';
 // import PopoverComponent from '../views/ui-components/popover.jsx';
 // import TooltipComponent from '../views/ui-components/tooltip.jsx';
 

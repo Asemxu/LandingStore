@@ -36,7 +36,7 @@ const Starter = (props) => {
             break
     }
     return (
-        <div>
+        <React.Fragment>
             {/* <Row>
                 <Col sm={6} lg={8}>
                     <SalesSummary />
@@ -51,7 +51,7 @@ const Starter = (props) => {
                 </Col>
             </Row> */}
             <ComponentsProducts data = {result} categoria = {path}/>
-        </div>
+        </React.Fragment>
     );
 }
 
