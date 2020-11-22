@@ -13456,7 +13456,7 @@ use profile section
     font-size:1rem;
     font-weight:1000;
     color:white;
-    text-shadow:5px 5px 5px black;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .footer_icons{
@@ -13464,6 +13464,18 @@ use profile section
 }
 
 .page-wrapper{
-    background:url(../images/fondo.jpg)no-repeat 100% fixed;
-    background-size:cover;
+    background:url(../images/fondo_4.jpg)no-repeat 100% fixed;
+    background-size:100%;
+}
+i.mdi.mdi-phone.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+i.mdi.mdi-google-maps.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+i.mdi.mdi-facebook-box.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+i.mdi.mdi-gmail.icon_header_footer::before{
+    text-shadow: black 0.1em 0.1em 0.2em
 }

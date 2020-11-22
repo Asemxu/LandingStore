@@ -1,6 +1,6 @@
 {
     "Poleras":{
-        "imagen":"/polera_justDoIt/polera_justDoIt_principal.jpeg",
+        "imagen":"/polera_estar/polera_principal_2.jpg",
         "products":[
             {
                 "id":"1",
@@ -72,7 +72,7 @@
         ]
     },
     "Pantalones":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/pantalon_jeanSemi/pantalon_principal_3.jpg",
         "products":[
             {   
                 "id":"1",
@@ -99,13 +99,13 @@
         
     },
     "Casacas":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/casacas/casacas_principal.jpg",
         "products":[
 
         ]
     },
     "Polos":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/polos/polos_principal.jpg",
         "products":[
 
         ]
@@ -145,11 +145,11 @@
         ]
     },
     "Blusas":{
-        "imagen":"/blusas/blusa.jpeg",
+        "imagen":"/blusas/blusa_principal.jpeg",
         "products":[
             {
                 "id":"1",
-                "nombre":"Blus Parche",
+                "nombre":"Blusa Parche",
                 "precio":45,
                 "status":true,
                 "img":"/blusas/blusa.jpeg"
@@ -157,7 +157,7 @@
         ]
     },
     "Bermudas":{
-        "imagen":"/bermuda_drill/bermuda_drill.jpeg",
+        "imagen":"/bermuda_drill/bermuda_principal_1.jpg",
         "products":[
             {
                 "id":"1",
