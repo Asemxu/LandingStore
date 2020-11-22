@@ -1,10 +1,21 @@
 .title_categoria{
     text-align:center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 8.5vh;
 }
-
 
 .img__container{
     text-align: center;
+    padding: 5%;
+    border-radius: 5px;
+    margin-bottom: 2.5%;
+    background:no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* object-fit: cover; */
 }
 
 .img__Camisas{

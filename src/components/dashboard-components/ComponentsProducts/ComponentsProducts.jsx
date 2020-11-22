@@ -8,6 +8,7 @@ import img3 from '../../../assets/images/big/img3.jpg';
 const TechCards = (props) => {
     const data_info = props.data;
     const categoria = props.categoria;
+    const img_bg = '../../../assets/images/products'+props.data.imagen;
     // const [tooltipOpen, setTooltipOpen] = useState(false);
     // const [tooltipOpen2, setTooltipOpen2] = useState(false);
     // const [tooltipOpen3, setTooltipOpen3] = useState(false);
@@ -105,9 +106,10 @@ const TechCards = (props) => {
         /* Used In Hook                                                       */
         /*--------------------------------------------------------------------------------*/
         <React.Fragment>
-            <h1 className="title_categoria">{categoria}</h1>
-            <div className="img__container">
-                <img  className="img-fluid" src={require('../../../assets/images/products'+data_info.imagen)} alt={categoria}/>
+
+            <div className="img__container" style={{ backgroundImage:`url(${require('../../../assets/images/products'+data_info.imagen)})` }}>
+                {/* <img  className="img-fluid" src="" alt={categoria}/> */}
+                <h1 className="title_categoria">{categoria}</h1>
             </div>
             {/* <div className={`img__${categoria}`} style={style}>
                 </div> */}

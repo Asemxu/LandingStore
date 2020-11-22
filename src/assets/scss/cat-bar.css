@@ -1,0 +1,13 @@
+img.icon-png{
+    height: 20px;
+    width: auto;
+    margin-right: 5%;
+}
+svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: red;
+  }
+  

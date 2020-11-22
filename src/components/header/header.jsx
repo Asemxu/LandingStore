@@ -77,29 +77,6 @@ const Header = () => {
                     navbar
                     data-navbarbg="skin4"
                 >
-                    <Nav className="float-left" navbar>
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* Start Search-box toggle                                                        */}
-                        {/*--------------------------------------------------------------------------------*/}
-                        <NavItem className="hidden-sm-down search-box">
-                            <NavLink
-                                href="#"
-                                className="hidden-sm-down"
-                                onClick={toggleMenu.bind(null)}
-                            >
-                                <i className="ti-search" />
-                            </NavLink>
-                            <Form className="app-search" id="search">
-                                <Input type="text" placeholder="Search & enter" />
-                                <button className="btn-link srh-btn" onClick={toggleMenu.bind(null)}>
-                                    <i className="ti-close" />
-                                </button>
-                            </Form>
-                        </NavItem>
-                        {/*--------------------------------------------------------------------------------*/}
-                        {/* End Search-box toggle                                                          */}
-                        {/*--------------------------------------------------------------------------------*/}
-                    </Nav>
                     <Nav className="ml-auto float-right" navbar>
                         <NavItem>
                             <a

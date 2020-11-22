@@ -18,49 +18,49 @@ var ThemeRoutes = [
   {
     path: '/Inicio',
     name: 'Inicio',
-    icon: 'mdi mdi-adjust',
+    icon: '/home.svg',
     component: FirstDashboard
   },
   {
     path: '/Casacas',
     name: 'Casacas',
-    icon: 'mdi mdi-adjust',
+    icon: '/sweater-3.svg',
     component: FirstDashboard
   },
   {
     path: '/Pantalones',
     name: 'Pantalones',
-    icon: 'mdi mdi-comment-processing-outline',
+    icon: '/pants-1.svg',
     component: FirstDashboard
   },
   {
     path: '/Poleras',
     name: 'Poleras',
-    icon: 'mdi mdi-arrange-send-backward',
+    icon: '/sweater-with-hood-and-pocket.svg',
     component: FirstDashboard
   },
   {
     path: '/Camisas',
     name: 'Camisas',
-    icon: 'mdi mdi-toggle-switch',
+    icon: '/blouse-1.svg',
     component: FirstDashboard
   },
   {
     path: '/Polos',
     name: 'Polos',
-    icon: 'mdi mdi-credit-card-multiple',
+    icon: '/t-shirt-1.svg',
     component: FirstDashboard
   },
   {
     path: '/Blusas',
     name: 'Blusas',
-    icon: 'mdi mdi-credit-card-multiple',
+    icon: '/blouse.svg',
     component: FirstDashboard
   },
   {
     path: '/Bermudas',
     name: 'Bermudas',
-    icon: 'mdi mdi-credit-card-multiple',
+    icon: '/shorts.svg',
     component: FirstDashboard
   },/*
   {
