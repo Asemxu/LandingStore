@@ -34,6 +34,9 @@ const Starter = (props) => {
         case "Bermudas":
             result = data.Bermudas;
             break
+        case "Chalecos":
+            result = data.Chalecos;
+            break;
     }
     return (
         <React.Fragment>

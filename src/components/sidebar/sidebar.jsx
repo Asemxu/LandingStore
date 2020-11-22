@@ -4,6 +4,8 @@ import { Nav } from "reactstrap";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import '../../assets/scss/cat-bar.css';
 const Sidebar = (props) => {
+
+  const fecha = new Date();
   /*--------------------------------------------------------------------------------*/
   /*To Expand SITE_LOGO With Sidebar-Menu on Hover                                  */
   /*--------------------------------------------------------------------------------*/

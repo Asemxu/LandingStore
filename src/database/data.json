@@ -188,6 +188,13 @@
                 "precio":58,
                 "status":true,
                 "img":"/polera_bicolor/bicolor_celeste_white.jpeg"
+            },
+            {
+                "id":"26",
+                "nombre":"Polera Roja Cuello de Tortuga",
+                "precio":65,
+                "status":true,
+                "img":"/polera_tortuga/roja.jpeg"
             }
         ]
     },
@@ -195,7 +202,7 @@
         "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
         "products":[
             {   
-                "id":"111",
+                "id":"1",
                 "nombre":"Pantalones Cargo",
                 "precio":98,
                 "status":true,
@@ -219,15 +226,69 @@
         
     },
     "Casacas":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/casacas/casaca_clasic_celeste.jpeg",
         "products":[
-
+            {   
+                "id":"1",
+                "nombre":"Casaca Clasic Azul Marino",
+                "precio":115,
+                "status":true,
+                "img":"/casacas/casaca_clasic_azul_marino.jpeg"
+            },
+            {   
+                "id":"2",
+                "nombre":"Casaca Clasic Amarilla",
+                "precio":115,
+                "status":true,
+                "img":"/casacas/casaca_clasic_yellow.jpeg"
+            },
+            {   
+                "id":"3",
+                "nombre":"Casaca Clasic Celeste",
+                "precio":115,
+                "status":true,
+                "img":"/casacas/casaca_clasic_celeste.jpeg"
+            },
+            {   
+                "id":"4",
+                "nombre":"Casaca Clasic Roja",
+                "precio":115,
+                "status":true,
+                "img":"/casacas/casaca_clasic_rojo.jpeg"
+            },
+            {   
+                "id":"5",
+                "nombre":"Casaca Blanca Dos Cierres para Dama",
+                "precio":129,
+                "status":true,
+                "img":"/casacas/casaca_dos_cierres_white_dama.jpeg"
+            },
+            {   
+                "id":"6",
+                "nombre":"Casaca Piel de Durazno para Dama de Varios Colores ",
+                "precio":120,
+                "status":true,
+                "img":"/casacas/casaca_piel_durazno_colores_dama.jpeg"
+            },
+            {   
+                "id":"7",
+                "nombre":"Casaca Naranaja y Negro Reversible para Hombre",
+                "precio":118,
+                "status":true,
+                "img":"/casacas/casaca_reversible_hombre_orange_black.jpeg"
+            }
         ]
     },
     "Polos":{
-        "imagen":"/pantalon_cargo/pantalon_cargo.jpeg",
+        "imagen":"/polos/polo_estampado.jpeg",
         "products":[
-
+            {   
+                "id":"1",
+                "nombre":"Polos con Estampados",
+                "precio":38,
+                "status":true,
+                "img":"/polos/polo_estampado.jpeg"
+            }
         ]
     },
     "Camisas":{
@@ -287,5 +348,18 @@
                 "img":"/bermuda_drill/bermuda_drill.jpeg"
             }
         ]
+    },
+    "Chalecos":{
+        "imagen":"/chalecos/chaleco_drill__dama_piel.jpeg",
+        "products":[
+            {   
+                "id":"1",
+                "nombre":"Chaleco Drill - dama color Piel",
+                "precio":88,
+                "status":true,
+                "img":"/chalecos/chaleco_drill__dama_piel.jpeg"
+            }
+        ]
+
     }
 }

@@ -12552,7 +12552,7 @@ Preloader
  Footer
 *******************/
 .footer {
-    padding: 15px 20px;
+    background:hsl(192, 100%,9%);
 }
 
 /*******************
@@ -13445,6 +13445,7 @@ use profile section
     margin-right: 1rem;
 }
 
+
 .icon_header_footer{
     color:white;
     font-size:1.5rem;
@@ -13452,8 +13453,10 @@ use profile section
     
 }
 
+
 .footer > h5{
-    font-size:1rem;
+    padding-top:1rem;
+    font-size:1.5rem;
     font-weight:1000;
     color:white;
     text-shadow:5px 5px 5px black;
@@ -13466,4 +13469,13 @@ use profile section
 .page-wrapper{
     background:url(../images/fondo.jpg)no-repeat 100% fixed;
     background-size:cover;
+}
+
+.footer_footer{
+    padding:0.5rem;
+    background:hsl(192,25%,10%)
+}
+
+.links :hover{
+    color:rgba(169, 169, 2, 0.849);
 }

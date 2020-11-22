@@ -62,6 +62,12 @@ var ThemeRoutes = [
     name: 'Bermudas',
     icon: '/shorts.svg',
     component: FirstDashboard
+  },
+  {
+    path: '/Chalecos',
+    name: 'Chalecos',
+    icon: '/sweater-3.svg',
+    component: FirstDashboard
   },/*
   {
     path: '/ui-components/layout',

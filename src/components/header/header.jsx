@@ -101,22 +101,22 @@ const Header = () => {
           {/*</Nav> */}
           <Nav className="ml-auto float-right" navbar>
             <NavItem>
-              <a href={"tel:" + "http://987771610"}>
+              <a className="links"  href={"tel:" + "http://959951172"}>
                 <i className="mdi mdi-phone icon_header"> 961 558 181</i>
               </a>
             </NavItem>
             <NavItem>
-              <a href="https://www.google.com" target="_BLANK">
+              <a className="links" href="https://www.google.com" target="_BLANK">
                 <i className="mdi mdi-google-maps icon_header"> </i>
               </a>
             </NavItem>
             <NavItem>
-              <a href="https://www.facebook.com" target="_BLANK">
+              <a className="links" href="https://www.facebook.com" target="_BLANK">
                 <i className="mdi mdi-facebook-box icon_header"> </i>
               </a>
             </NavItem>
             <NavItem>
-              <a href={"mailto:" + "renzo@hotmail.com"}>
+              <a className="links" href={"mailto:" + "renzo@hotmail.com"}>
                 <i className="mdi mdi-gmail icon_header"> </i>
               </a>
             </NavItem>
