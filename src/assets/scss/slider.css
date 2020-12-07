@@ -1,25 +1,35 @@
-.padre {
-  position: relative;
-  background-color: green;
-  height: 100px;
-  align-content: left;
-  text-align: left;
+@font-face {
+  font-family: "CheddarGothic";
+  src: local("CheddarGothic"),
+    url(../../assets/scss/CheddarGothic-Stencil.otf) format("truetype");
 }
-
-.uno {
-  background-image: url("../../assets/images/slider_img/line_shade.png");
+.slider-div {
+  display: block;
+  position: relative;
+  text-align:center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 10vh;
+  font-family: CheddarGothic;
+}
+/* 
+.hijo {
+  display: block;
   position: absolute;
+  width: auto;
+  height: auto;
   top: 0;
   left: 0;
   right: 0;
-  margin: 0 auto;
-  width: 200px;
-}
+  color: white;
+  font-size: 5vh;
+  margin:50px auto;
+} */
 .awssld,
 .awssld__wrapper,
 div.awssld__box,
 div.awssld__container {
-  height: 550px !important;
+  height: 300px !important;
 }
 .awssld__container {
   padding-bottom: 20px;

@@ -13,17 +13,17 @@ const Slider = () => {
   return (
     <React.Fragment>
       <AwesomeSlider animation="cubeAnimation">
-        <div className="padre" data-src={img1}>
-          <div className="uno">Comodidad</div>
+        <div className="slider-div" data-src={img1}>
+          <i>Comodidad</i>          
         </div>
-        <div className="padre" data-src={img2}>
-          <div className="uno">Calidad</div>
+        <div className="slider-div" data-src={img2}>
+          <i>Calidad</i>
         </div>
-        <div className="padre" data-src={img3}>
-          <div className="uno">Estilo</div>
+        <div className="slider-div" data-src={img3}>
+          <i>Estilo</i>
         </div>
-        <div className="padre" data-src={img4}>
-          <div className="uno">Presencia</div>
+        <div className="slider-div" data-src={img4}>
+          <i>Presencia</i>
         </div>
       </AwesomeSlider>
     </React.Fragment>
