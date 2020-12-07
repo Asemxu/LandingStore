@@ -17,10 +17,10 @@ import {
 /*--------------------------------------------------------------------------------*/
 /* Import images which are need for the HEADER                                    */
 /*--------------------------------------------------------------------------------*/
-import logodarkicon from "../../assets/images/logo-icon.png";
-import logolighticon from "../../assets/images/logo-light-icon.png";
-import logodarktext from "../../assets/images/logo-text.png";
-import logolighttext from "../../assets/images/logo-light-text.png";
+// import logodarkicon from "../../assets/images/logo-icon.png";
+// import logolighticon from "../../assets/images/logo-light-icon.png";
+// import logodarktext from "../../assets/images/logo-text.png";
+// import logolighttext from "../../assets/images/logo-light-text.png";
 import logoRave from "../../assets/images/logo/rave_horizontal_1.png";
 import "../../assets/scss/logo.css";
 //import profilephoto from '../../assets/images/users/1.jpg';
@@ -106,17 +106,17 @@ const Header = () => {
               </a>
             </NavItem>
             <NavItem>
-              <a className="links" href="https://www.google.com/maps/dir/?api=1&destination=-7.1609822214812%2C-78.520373007218&fbclid=IwAR08Tm3bS9PxWAwn_1YGSi_5sFkh8rsgwnVMVOC9FQERallNi7ijeJoGDYs" target="_BLANK">
+              <a className="links" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=-7.1609822214812%2C-78.520373007218&fbclid=IwAR08Tm3bS9PxWAwn_1YGSi_5sFkh8rsgwnVMVOC9FQERallNi7ijeJoGDYs" target="_BLANK">
                 <i className="mdi mdi-google-maps icon_header"> </i>
               </a>
             </NavItem>
             <NavItem>
-              <a className="links" href="https://www.facebook.com/RaveUrban" target="_BLANK">
+              <a className="links" rel="noopener noreferrer" href="https://www.facebook.com/RaveUrban" target="_BLANK">
                 <i className="mdi mdi-facebook-box icon_header"> </i>
               </a>
             </NavItem>
             <NavItem>
-              <a className="links" href={"mailto:" + "renzo@hotmail.com"}>
+              <a className="links" rel="noopener noreferrer" href={"mailto:" + "renzo@hotmail.com"}>
                 <i className="mdi mdi-gmail icon_header"> </i>
               </a>
             </NavItem>

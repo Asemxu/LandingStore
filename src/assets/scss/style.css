@@ -10913,6 +10913,7 @@ a.text-inverse:focus {
 }
 
 .blog-widget .blog-image img {
+    box-shadow: 5px 5px 5px;
     border-radius: 4px;
     margin-top: -45px;
     margin-bottom: 20px;
@@ -13503,4 +13504,8 @@ i.mdi.mdi-gmail.icon_header_footer::before{
 
 .links > i{
     font-size:0.75rem;
+}
+
+.btn_carrito{
+    width:100%;
 }

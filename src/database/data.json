@@ -3,198 +3,221 @@
         "imagen":"/polera_estar/polera_principal_2.jpg",
         "products":[
             {
-                "id":"1",
+                "id":"1A",
                 "nombre":"Polera Star",
                 "precio":65,
                 "status":true,
-                "img":"/polera_estar/polera_blue.jpeg"
+                "img":"/polera_estar/polera_blue.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"2",
+                "id":"2A",
                 "nombre":"Polera Star",
                 "precio":65,
                 "status":true,
-                "img":"/polera_estar/polera_red.jpeg"
-
+                "img":"/polera_estar/polera_red.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"3",
+                "id":"3A",
                 "nombre":"Polera Star",
                 "precio":65,
                 "status":true,
-                "img":"/polera_estar/polera_white.jpeg"
-
+                "img":"/polera_estar/polera_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"4",
+                "id":"4A",
                 "nombre":"Polera Star",
                 "precio":65,
                 "status":true,
-                "img":"/polera_estar/polera_yellow.jpeg"
+                "img":"/polera_estar/polera_yellow.jpeg",
+                "categoria":"Poleras"
+            },
+            {
+                "id":"5A",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg",
+                "categoria":"Poleras"
+            },
+            {
+                "id":"6A",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg",
+                "categoria":"Poleras"
+            },
+            {
+                "id":"7A",
+                "nombre":"Polera Just Do IT",
+                "precio":58,
+                "status":true,
+                "img":"/polera_justDoIt/polera_justDoIt_yellow.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"5",
+                "id":"8A",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
                 "status":true,
-                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg"
-
+                "img":"/polera_justDoIt/polera_justDoIt_red.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"6",
+                "id":"9A",
                 "nombre":"Polera Just Do IT",
                 "precio":58,
                 "status":true,
-                "img":"/polera_justDoIt/polera_justDoIt_black_1.jpeg"
+                "img":"/polera_justDoIt/polera_justDoIt_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"7",
-                "nombre":"Polera Just Do IT",
-                "precio":58,
-                "status":true,
-                "img":"/polera_justDoIt/polera_justDoIt_yellow.jpeg"
-            },
-            {
-                "id":"8",
-                "nombre":"Polera Just Do IT",
-                "precio":58,
-                "status":true,
-                "img":"/polera_justDoIt/polera_justDoIt_red.jpeg"
-            },
-            {
-                "id":"9",
-                "nombre":"Polera Just Do IT",
-                "precio":58,
-                "status":true,
-                "img":"/polera_justDoIt/polera_justDoIt_white.jpeg"
-            },
-            {
-                "id":"10",
+                "id":"1A0",
                 "nombre":"Polera Bicolor Blanco y Negro",
                 "precio":68,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_white.jpeg"
+                "img":"/polera_bicolor/bicolor_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"11",
+                "id":"1A1",
                 "nombre":"Polera Bicolor Azul y Blanco",
                 "precio":68,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_blue.jpeg"
+                "img":"/polera_bicolor/bicolor_blue.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"12",
+                "id":"1A2",
                 "nombre":"Polera Bicolor Amarrillo y Negro",
                 "precio":68,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_yellow.jpeg"
+                "img":"/polera_bicolor/bicolor_yellow.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"13",
+                "id":"1A3",
                 "nombre":"Polera Bicolor Celeste y Negro",
                 "precio":68,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_celeste.jpeg"
+                "img":"/polera_bicolor/bicolor_celeste.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"14",
+                "id":"1A4",
                 "nombre":"Polera Bicolor Blanco y Morado",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_morado_white.jpeg"
+                "img":"/polera_bicolor/bicolor_morado_white.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"15",
+                "id":"1A5",
                 "nombre":"Polera Bicolor Amarillo y Blanco",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_yellow_white.jpeg"
+                "img":"/polera_bicolor/bicolor_yellow_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"16",
+                "id":"1A6",
                 "nombre":"Polera Bicolor Anaranjado y Blanco",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_orange_white.jpeg"
+                "img":"/polera_bicolor/bicolor_orange_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"17",
+                "id":"1A7",
                 "nombre":"Polera Bicolor Rojo y Negro",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_red_black.jpeg"
+                "img":"/polera_bicolor/bicolor_red_black.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"18",
+                "id":"1A8",
                 "nombre":"Polera Bicolor Celeste y Negro",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_celeste_black2.jpeg"
+                "img":"/polera_bicolor/bicolor_celeste_black2.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"19",
+                "id":"1A9",
                 "nombre":"Polera Bicolor Negro y Piel",
                 "precio":65,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_negro_dorado.jpeg"
+                "img":"/polera_bicolor/bicolor_negro_dorado.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"20",
+                "id":"2A0",
                 "nombre":"Polera Bicolor Rosado y Blanco",
                 "precio":65,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_white_pink.jpeg"
+                "img":"/polera_bicolor/bicolor_white_pink.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"21",
+                "id":"2A1",
                 "nombre":"Polera Bicolor Azul y Blanco",
                 "precio":65,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_blue_white.jpeg"
+                "img":"/polera_bicolor/bicolor_blue_white.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"22",
+                "id":"2A2",
                 "nombre":"Polera Bicolor Rosado y Negro",
                 "precio":65,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_pink_black.jpeg"
+                "img":"/polera_bicolor/bicolor_pink_black.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"23",
+                "id":"2A3",
                 "nombre":"Polera Bicolor Rojo y Blanco",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_red_white.jpeg"
+                "img":"/polera_bicolor/bicolor_red_white.jpeg",
+                "categoria":"Poleras"
 
             },
             {
-                "id":"24",
+                "id":"2A4",
                 "nombre":"Polera Bicolor Verde y Negro",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_green_black.jpeg"
+                "img":"/polera_bicolor/bicolor_green_black.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"25",
+                "id":"2A5",
                 "nombre":"Polera Bicolor Celetes y Blanco",
                 "precio":58,
                 "status":true,
-                "img":"/polera_bicolor/bicolor_celeste_white.jpeg"
+                "img":"/polera_bicolor/bicolor_celeste_white.jpeg",
+                "categoria":"Poleras"
             },
             {
-                "id":"26",
+                "id":"2A6",
                 "nombre":"Polera Roja Cuello de Tortuga",
                 "precio":65,
                 "status":true,
-                "img":"/polera_tortuga/roja.jpeg"
+                "img":"/polera_tortuga/roja.jpeg",
+                "categoria":"Poleras"
             }
         ]
     },
@@ -202,25 +225,28 @@
         "imagen":"/pantalon_jeanSemi/pantalon_principal_3.jpg",
         "products":[
             {   
-                "id":"1",
+                "id":"1B",
                 "nombre":"Pantalones Cargo",
                 "precio":98,
                 "status":true,
-                "img":"/pantalon_cargo/pantalon_cargo.jpeg"
+                "img":"/pantalon_cargo/pantalon_cargo.jpeg",
+                "categoria":"Pantalones"
             },
             {   
-                "id":"2",
+                "id":"2B",
                 "nombre":"Pantalones Jeans Semi",
                 "precio":98,
                 "status":true,
-                "img":"/pantalon_jeanSemi/pantalon_jeanSemi.jpeg"
+                "img":"/pantalon_jeanSemi/pantalon_jeanSemi.jpeg",
+                "categoria":"Pantalones"
             },
             {   
-                "id":"3",
+                "id":"3B",
                 "nombre":"Pantalones Drill Semi",
                 "precio":98,
                 "status":true,
-                "img":"/pantalon_drillSemi/pantalon_drillSemi.jpeg"
+                "img":"/pantalon_drillSemi/pantalon_drillSemi.jpeg",
+                "categoria":"Pantalones"
             }
         ]
         
@@ -229,53 +255,60 @@
         "imagen":"/casacas/casacas_principal.jpg",
         "products":[
             {   
-                "id":"1",
+                "id":"1C",
                 "nombre":"Casaca Clasic Azul Marino",
                 "precio":115,
                 "status":true,
-                "img":"/casacas/casaca_clasic_azul_marino.jpeg"
+                "img":"/casacas/casaca_clasic_azul_marino.jpeg",
+                "categoria":"Casacas"
             },
             {   
-                "id":"2",
+                "id":"2C",
                 "nombre":"Casaca Clasic Amarilla",
                 "precio":115,
                 "status":true,
-                "img":"/casacas/casaca_clasic_yellow.jpeg"
+                "img":"/casacas/casaca_clasic_yellow.jpeg",
+                "categoria":"Casacas"
             },
             {   
-                "id":"3",
+                "id":"3C",
                 "nombre":"Casaca Clasic Celeste",
                 "precio":115,
                 "status":true,
-                "img":"/casacas/casaca_clasic_celeste.jpeg"
+                "img":"/casacas/casaca_clasic_celeste.jpeg",
+                "categoria":"Casacas"
             },
             {   
                 "id":"4",
                 "nombre":"Casaca Clasic Roja",
                 "precio":115,
                 "status":true,
-                "img":"/casacas/casaca_clasic_rojo.jpeg"
+                "img":"/casacas/casaca_clasic_rojo.jpeg",
+                "categoria":"Casacas"
             },
             {   
                 "id":"5",
                 "nombre":"Casaca Blanca Dos Cierres para Dama",
                 "precio":129,
                 "status":true,
-                "img":"/casacas/casaca_dos_cierres_white_dama.jpeg"
+                "img":"/casacas/casaca_dos_cierres_white_dama.jpeg",
+                "categoria":"Casacas"
             },
             {   
                 "id":"6",
                 "nombre":"Casaca Piel de Durazno para Dama de Varios Colores ",
                 "precio":120,
                 "status":true,
-                "img":"/casacas/casaca_piel_durazno_colores_dama.jpeg"
+                "img":"/casacas/casaca_piel_durazno_colores_dama.jpeg",
+                "categoria":"Casacas"
             },
             {   
                 "id":"7",
                 "nombre":"Casaca Naranaja y Negro Reversible para Hombre",
                 "precio":118,
                 "status":true,
-                "img":"/casacas/casaca_reversible_hombre_orange_black.jpeg"
+                "img":"/casacas/casaca_reversible_hombre_orange_black.jpeg",
+                "categoria":"Casacas"
             }
         ]
     },
@@ -283,44 +316,74 @@
         "imagen":"/polos/polos_principal.jpg",
         "products":[
             {   
-                "id":"1",
+                "id":"1D",
                 "nombre":"Polos con Estampados",
                 "precio":38,
                 "status":true,
-                "img":"/polos/polo_estampado.jpeg"
+                "img":"/polos/polo_estampado.jpeg",
+                "categoria":"Polos"
+            },
+            {   
+                "id":"2D",
+                "nombre":"Polos Anaranjado",
+                "precio":38,
+                "status":true,
+                "img":"/polos/polo_anaranjado.jpg",
+                "categoria":"Polos"
+            },
+            {   
+                "id":"3D",
+                "nombre":"Polos MultiColor",
+                "precio":38,
+                "status":true,
+                "img":"/polos/polos_multicolor.jpg",
+                "categoria":"Polos"
             }
+
         ]
     },
     "Camisas":{
         "imagen":"/camisa_BGO/BGO_Principal.jpeg",
         "products":[
             {
-                "id":"1",
+                "id":"1E",
                 "nombre":"Camisas BGO Cuadros",
                 "precio":88,
                 "status":true,
-                "img":"/camisa_BGO/BGO_1.jpeg"
+                "img":"/camisa_BGO/BGO_1.jpeg",
+                "categoria":"Camisas"
             },
             {
-                "id":"2",
+                "id":"2E",
                 "nombre":"Camisas BGO cuadros ",
                 "precio":88,
                 "status":true,
-                "img":"/camisa_BGO/BGO_2.jpeg"
+                "img":"/camisa_BGO/BGO_2.jpeg",
+                "categoria":"Camisas"
             },
             {
-                "id":"3",
+                "id":"3E",
                 "nombre":"Camisas BGO Cuadros",
                 "precio":88,
                 "status":true,
-                "img":"/camisa_BGO/BGO_3.jpeg"
+                "img":"/camisa_BGO/BGO_3.jpeg",
+                "categoria":"Camisas"
             },
             {
-                "id":"4",
+                "id":"4E",
                 "nombre":"Camisas BGO cuadros ",
                 "precio":88,
                 "status":true,
-                "img":"/camisa_BGO/BGO_4.jpeg"
+                "img":"/camisa_BGO/BGO_4.jpeg",
+                "categoria":"Camisas"
+            },
+            {
+                "id":"5E",
+                "nombre":"Camisas BGO cuadros ",
+                "precio":88,
+                "status":true,
+                "img":"/camisa_BGO/BGO_Principal.jpeg",
+                "categoria":"Camisas"
             }
 
         ]
@@ -329,11 +392,12 @@
         "imagen":"/blusas/blusa_principal.jpeg",
         "products":[
             {
-                "id":"1",
+                "id":"1F",
                 "nombre":"Blusa Parche",
                 "precio":45,
                 "status":true,
-                "img":"/blusas/blusa.jpeg"
+                "img":"/blusas/blusa.jpeg",
+                "categoria":"Blusas"
             }
         ]
     },
@@ -341,11 +405,28 @@
         "imagen":"/bermuda_drill/bermuda_principal_1.jpg",
         "products":[
             {
-                "id":"1",
+                "id":"1G",
                 "nombre":"Bermuda Drill",
                 "precio":75,
                 "status":true,
-                "img":"/bermuda_drill/bermuda_drill.jpeg"
+                "img":"/bermuda_drill/bermuda_drill.jpeg",
+                "categoria":"Bermudas"
+            },
+            {
+                "id":"2G",
+                "nombre":"Bermuda Drill Azul",
+                "precio":75,
+                "status":true,
+                "img":"/bermuda_drill/bermuda_azul.jpg",
+                "categoria":"Bermudas"
+            },
+            {
+                "id":"3G",
+                "nombre":"Bermuda Drill Multi Color Oscuro",
+                "precio":75,
+                "status":true,
+                "img":"/bermuda_drill/bermuda_multi_dark.jpg",
+                "categoria":"Bermudas"
             }
         ]
     },
@@ -357,7 +438,8 @@
                 "nombre":"Chaleco Drill - dama color Piel",
                 "precio":88,
                 "status":true,
-                "img":"/chalecos/chaleco_drill__dama_piel.jpeg"
+                "img":"/chalecos/chaleco_drill__dama_piel.jpeg",
+                "categoria":"Chalecos"
             }
         ]
 
