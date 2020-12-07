@@ -14,16 +14,16 @@ const Slider = () => {
     <React.Fragment>
       <AwesomeSlider animation="cubeAnimation">
         <div className="slider-div" data-src={img1}>
-          <i>Comodidad</i>          
+          <i>Calidad</i>          
         </div>
         <div className="slider-div" data-src={img2}>
-          <i>Calidad</i>
+          <i>Personalidad</i>
         </div>
         <div className="slider-div" data-src={img3}>
           <i>Estilo</i>
         </div>
         <div className="slider-div" data-src={img4}>
-          <i>Presencia</i>
+          <i>Comodidad</i>
         </div>
       </AwesomeSlider>
     </React.Fragment>

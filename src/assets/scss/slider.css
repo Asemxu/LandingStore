@@ -9,8 +9,11 @@
   text-align:center;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
-  font-size: 10vh;
+  font-size: 15vh;
   font-family: CheddarGothic;
+}
+.awssld__content > img{
+  opacity: 0.5;
 }
 /* 
 .hijo {
