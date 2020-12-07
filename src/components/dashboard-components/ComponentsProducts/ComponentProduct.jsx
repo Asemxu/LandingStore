@@ -21,12 +21,13 @@ const isDisponible = (status) =>{
 const ComponentProduct = (props) => {
     const producto = props.data;
     const cols = props.cols;
+    const classType = props.classType;
     return (
         <Col lg={cols} key={producto.id}>
             <Card className="blog-widget">
                 <CardBody>
                     <div className="blog-image">
-                        <img src={require('../../../assets/images/products'+producto.img)} alt="img" className="img-fluid img_most" />
+                        <img src={require('../../../assets/images/products'+producto.img)} alt="img" className={`img-fluid ${classType}`} />
                     </div>
                     <h4>{producto.nombre}</h4>
                     <div className="badge badge-rounded badge-success text-white">

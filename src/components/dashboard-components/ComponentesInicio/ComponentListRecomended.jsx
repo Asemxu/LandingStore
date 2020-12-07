@@ -15,7 +15,7 @@ export default class ComponentListRecomended extends React.Component{
                         {this.data.map((product) => {
                             return(
                                 <React.Fragment key={product.id}>
-                                    <Product key={product.id} data={product} cols={3} />
+                                    <Product key={product.id} data={product} cols={3} classType="img_most" />
                                 </React.Fragment>
 
                             )

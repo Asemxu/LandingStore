@@ -52,7 +52,7 @@ const TechCards = (props) => {
                     {/*IsData()*/}
                     {data_info.products.map((info) => {
                         return(
-                           <Product key={info.id} data={info} cols={4} />
+                           <Product key={info.id} data={info} cols={4} clasType=""/>
                         );
                     })}
           </Row>
