@@ -4,11 +4,7 @@ import MostListPopular from './ComponentListPopular';
 import MostListRecomended from './ComponentListRecomended';
 import database from '../../../database/data.json';
 import './styles.css';
-// import {
-//     Card,
-//     CardBody,
-//     CardTitle,
-// } from 'reactstrap';
+
 
 const Feeds = () => {
     const listMostPopular = getMostPopular();
